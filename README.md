@@ -1,8 +1,21 @@
-"# airport2017" 
+# airport delay 
 
-upload //
-git init
-git add .
-git commit -m "adding files"
-git remote add origin add https://github.com/jukwan/airport2017
-git push -u origin master
+## Ver 1.OAG Data
+### 1. OAG + Weather
+      2014.10 - 2015.3
+      
+### 2. Data Explore
+   
+### 3. Regression
+   
+   
+## Ver 2. Extended Data
+  from public data
+  weather data: https://www.ncdc.noaa.gov/orders/qclcd/
+  on time data: transtats.bts.gov
+  
+
+
+
+
+
