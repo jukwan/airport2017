@@ -18,6 +18,8 @@
       merge ontimedata {2014.4 -2015.3}
       current : 8 airport
 ### 2.2 Navigate the data
+   #### airports_analysis.ipynb
+      simple descriptive information by airport, month, day.
 ### 2.3 Describe on the map
 ### 2.4 Predicting delay by snow
       Pooled OLS, Fixed effect.
