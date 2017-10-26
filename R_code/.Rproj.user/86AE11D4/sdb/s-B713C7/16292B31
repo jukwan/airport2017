@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "rm(list = ls())\nsetwd('F:/Dropbox/Flight/Data')\n\nlibrary(data.table)\n\nlibrary(httr)\n\nlibrary(rwunderground)\n\naa = \"f436a200496d963b\"\n\nair <- read.csv(\"Airports_2.csv\")\nset_api_key(key=\"f436a200496d963b\")\ndata_list = list()\n\n\nfor (i in 6:6){\n  weather <- history_range(set_location(airport_code=air$airport[i]), \"20141001\",\"20150331\")\n  weather$airport <- air$airport[i]\n  data_list[[i]] <- weather\n}\nbig_data = do.call(rbind,data_list)\n\nwrite.csv(big_data, file= file.path(paste0('air_SNA.csv')))\n",
+    "contents" : "rm(list = ls())\nsetwd('F:/Dropbox/Flight/Data')\n\nlibrary(data.table)\n\nlibrary(httr)\n\nlibrary(rwunderground)\n\naa = \"f436a200496d963b\"\n\nair <- read.csv(\"Airports_2.csv\")\nset_api_key(key=\"f436a200496d963b\")\ndata_list = list()\n\n\nfor (i in 3:3){\n  weather <- history_range(set_location(airport_code=air$airport[i]), \"20140331\",\"20140930\")\n  weather$airport <- air$airport[i]\n  data_list[[i]] <- weather\n}\nbig_data = do.call(rbind,data_list)\n\nwrite.csv(big_data, file= file.path(paste0('air_MHT.csv')))\n",
     "created" : 1507717388149.000,
-    "dirty" : false,
+    "dirty" : true,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2546146792",
+    "hash" : "44613374",
     "id" : "16292B31",
     "lastKnownWriteTime" : 1507717469,
-    "last_content_update" : 1507717469546,
+    "last_content_update" : 1508523304016,
     "path" : "F:/Dropbox/Flight/Code/R_code/airport_weather.R",
     "project_path" : "airport_weather.R",
     "properties" : {
