@@ -21,6 +21,8 @@
    #### airports_analysis.ipynb
       simple descriptive information by airport, month, day.
 ### 2.3 Describe on the map
+     ![alt text](https://github.com/jukwan/airport2017/blob/master/delay1.ex.png)
+ 
 ### 2.4 Predicting delay by snow
       Pooled OLS, Fixed effect.
       Baysian approach for estimation.
