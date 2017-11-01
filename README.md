@@ -24,8 +24,24 @@
 ![alt text](https://github.com/jukwan/airport2017/blob/master/delay1.ex.png)
  
 ### 2.4 Predicting delay by snow
-      Pooled OLS, Fixed effect.
-      Baysian approach for estimation.
+      Identification methods
+     1.	Pooled OLS / Logit
+     2.	Fixed effect model
+                   Airport/day
+     3.	DDD
+      a.	Treated effect of snowfall on northern part airports
+      b.	Control group southern part airport
+      c.	Treatment: before : fall after: winter/ Snowfall \
+      d.	Treatment 2: snowfall or not by day
+      e.	Treatment 3: snowfall precipitation >0 by hour
+
+       Extension.
+      4.	Matching
+      a.	With similar airports 
+
+      
+      5.    Baysian approach for estimation.
+      Time based supervised learning.
       
 
 
