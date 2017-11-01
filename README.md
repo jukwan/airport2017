@@ -11,6 +11,7 @@
       (1996~ current)
    ### on time data:
    https://www.transtats.bts.gov/DL_SelectFields.asp
+   https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time
       (1998 ~ current)
   
 ### 2.1 Data Prepare 
