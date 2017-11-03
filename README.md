@@ -32,9 +32,9 @@
      3.	DDD
       a.	Treated effect of snowfall on northern part airports
       b.	Control group southern part airport
-      c.	Treatment: before : fall after: winter/ Snowfall \
-      d.	Treatment 2: snowfall or not by day
-      e.	Treatment 3: snowfall precipitation >0 by hour
+      c.	Event window: before : fall after: winter/ Snowfall \
+      d.	Treatment 1: snowfall or not by day
+      e.	Treatment 2: snowfall precipitation >0 by hour
 
        Extension.
       4.	Matching
